@@ -1,0 +1,16 @@
+---
+
+# Create the DigitalOcean Droplet
+
+# Prep the Turing Pi Nodes
+
+# Set up ZeroTier Network
+  # Prep the Zerotier Router
+  # Add Zerotier to the DigitalOcean Droplet
+  # Approve the two nodes through the API
+
+# Deploy K3s on the Turing Pi Nodes
+  # Deploy K3s Master
+  # Deploy K3s Workers
+
+# Deploy K3s Worker on Digital Ocean

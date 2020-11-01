@@ -1,0 +1,9 @@
+---
+
+- name: Ensure the user SSH key is present
+  community.digitalocean.digital_ocean:
+    state: present
+    command: ssh
+    name: k3s-ssh-key
+    ssh_pub_key: 'ssh-rsa AAAA...'
+    api_token: XXX
